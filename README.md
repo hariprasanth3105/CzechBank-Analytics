@@ -66,9 +66,8 @@ CzechBank-Analytics/
 
 **Streamlit App**:
 
-[CzechBank Loan Risk Predictor](https://czechbank-analytics-brkgdg6myinywaays9vrcf.streamlit.app)
-
-[EDA Web Application](https://czechbank-analytics-b4rlfwn9teeb25pietkafx.streamlit.app)
+- **Loan Default Risk Predictor**: [Open App](https://czechbank-analytics-brkgdg6myinywaays9vrcf.streamlit.app)
+- **EDA Web Application**: [Open App](https://czechbank-analytics-b4rlfwn9teeb25pietkafx.streamlit.app)
 ---
 
 ## 📈 Key Insights
