@@ -35,17 +35,33 @@ To analyze banking data and build actionable insights across customer behavior, 
 
 CzechBank-Analytics/
 
-├── CzechBank_EDA.ipynb              # Exploratory Data Analysis
+├── EDA_App/                    # EDA Streamlit Web Application
 
-├── CzechBank_FinalML.ipynb          # Machine Learning Models
+│   ├── eda_app.py
 
-├── loanrisk_app.py                  # Streamlit Web Application
+│   ├── account.csv
 
-├── loan_default_model.pkl           # Trained XGBoost Model
+│   ├── client.csv
+
+│   ├── district.csv
+
+│   ├── loan.csv
+
+│   └── transaction_summary.csv
+
+├── CzechBank_EDA.ipynb            # Exploratory Data Analysis
+
+├── CzechBank_FinalML.ipynb        # Machine Learning Models
+
+├── loanrisk_app.py                # Streamlit Web Application
+
+├── loan_default_model.pkl         # Trained XGBoost Model
 
 ├── requirements.txt
 
 └── README.md
+
+
 
 
 **Streamlit App**: [CzechBank Loan Risk Predictor](https://czechbank-analytics-brkgdg6myinywaays9vrcf.streamlit.app)
@@ -80,3 +96,4 @@ pip install -r requirements.txt
 
 # 3. Run the Streamlit app
 streamlit run loanrisk_app.py
+streamlit run EDA_App/eda_app.py
