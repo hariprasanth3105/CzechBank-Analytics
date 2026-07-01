@@ -34,6 +34,7 @@ To analyze banking data and build actionable insights across customer behavior, 
 ## 📁 Project Structure
 
 CzechBank-Analytics/
+
 ├── CzechBank_EDA.ipynb              # Exploratory Data Analysis
 
 ├── CzechBank_FinalML.ipynb          # Machine Learning Models
