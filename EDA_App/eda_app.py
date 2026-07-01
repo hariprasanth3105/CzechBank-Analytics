@@ -10,15 +10,12 @@ st.title("📊 Czechoslovakia Bank - Exploratory Data Analysis Dashboard")
 @st.cache_data
 def load_data():
     base_path = 'EDA_App/'
-    
-    district = pd.read_csv('district.csv')                    
-    client = pd.read_csv('client.csv')
-    account = pd.read_csv('account.csv')
-    transaction_summary = pd.read_csv('transaction_summary.csv')
-    loan = pd.read_csv('loan.csv')
+    district = pd.read_csv(base_path + 'district.csv')
+    client = pd.read_csv(base_path + 'client.csv')
+    account = pd.read_csv(base_path + 'account.csv')
+    transaction_summary = pd.read_csv(base_path + 'transaction_summary.csv')
+    loan = pd.read_csv(base_path + 'loan.csv')
     return district, client, account, transaction_summary, loan
-
-district, client, account, transaction_summary, loan = load_data()
 
 # ====================== NAVIGATION ======================
 st.sidebar.title("Navigation")
