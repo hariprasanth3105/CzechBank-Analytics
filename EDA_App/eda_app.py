@@ -16,6 +16,7 @@ def load_data():
     transaction_summary = pd.read_csv(base_path + 'transaction_summary.csv')
     loan = pd.read_csv(base_path + 'loan.csv')
     return district, client, account, transaction_summary, loan
+district, client, account, transaction_summary, loan = load_data()
 
 # ====================== NAVIGATION ======================
 st.sidebar.title("Navigation")
