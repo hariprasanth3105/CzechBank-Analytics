@@ -9,6 +9,8 @@ st.title("📊 Czechoslovakia Bank - Exploratory Data Analysis Dashboard")
 # ====================== LOAD DATA ======================
 @st.cache_data
 def load_data():
+    base_path = 'EDA_App/'
+    
     district = pd.read_csv('district.csv')                    
     client = pd.read_csv('client.csv')
     account = pd.read_csv('account.csv')
